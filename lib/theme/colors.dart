@@ -9,7 +9,7 @@ class ThemeColors{
     400: Color(0xFF2FB36D),
     500: Color(_successPrimaryValue),
     600: Color(0xFF099D4C),
-    700: Color(0xFF079342),
+    // 700: Color(0xFF079342),
     800: Color(0xFF058A39),
     900: Color(0xFF037929),
   });

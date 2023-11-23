@@ -43,7 +43,7 @@ void onCreate(Database database,  int version) async {
 
 void onUpgrade(Database database, int oldVersion, int version) async {
   for(int index = oldVersion; index < version; index++){
-    // MigrationCallback callback = migrations[index];
+    MigrationCallback callback = migrations[index];
     await callback(database);
   }
 }
