@@ -11,6 +11,13 @@ double safeDouble(dynamic value){
 void v1(Database database) async {
   debugPrint("Running first migration....");
   await database.execute("CREATE TABLE payments ("
+      "id INTEGER PRIMARY KEY AUTOINCREMENT,"
+      "title TEXT NULL, "
+      "description TEXT NULL, "
+      "account INTEGER,"
+      "category INTEGER,"
+      "amount REAL,"
+      "type TEXT,"
       "datetime DATETIME"
       ")");
 
