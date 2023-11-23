@@ -7,7 +7,7 @@ class AppProvider extends ChangeNotifier{
   SharedPreferences? _preferences;
 
   String? get username => _username;
-  Color? get color => _color;
+  // Color? get color => _color;
   String? get currency => _currency;
 
   static Future<AppProvider> getInstance() async {
