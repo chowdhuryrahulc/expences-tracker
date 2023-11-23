@@ -29,12 +29,6 @@ class AppProvider extends ChangeNotifier{
 
   }
 
-  sync() async {
-    if(_username!=null) await _preferences!.setString("username", _username!);
-    if(_currency!=null) await _preferences!.setString("currency", _currency!);
-    if(_color!=null) await _preferences!.setInt("currency", _color!.value);
-  }
-
   Future<void> update({String? username, String? currency}) async {
     _currency = currency;
     _username = username;
