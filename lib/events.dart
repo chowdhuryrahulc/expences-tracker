@@ -4,3 +4,4 @@ enum GlobalEventTypes{
   categoryUpdate,
   accountUpdate
 }
+final globalEvent = EventEmitter();
