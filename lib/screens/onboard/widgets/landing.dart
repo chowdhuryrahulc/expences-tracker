@@ -1,6 +1,6 @@
 import 'package:ficonsax/ficonsax.dart';
-import 'package:fintracker/helpers/color.helper.dart';
-import 'package:fintracker/widgets/buttons/button.dart';
+import 'package:expensetracker/helpers/color.helper.dart';
+import 'package:expensetracker/widgets/buttons/button.dart';
 import 'package:flutter/material.dart';
 
 class LandingPage extends StatelessWidget{
@@ -20,7 +20,7 @@ class LandingPage extends StatelessWidget{
               Expanded(
                   child: ListView(
                     children: [
-                      Text("Fintracker", style: theme.textTheme.headlineLarge!.merge(TextStyle(color: theme.colorScheme.primary, fontWeight: FontWeight.bold)),),
+                      Text("expensetracker", style: theme.textTheme.headlineLarge!.merge(TextStyle(color: theme.colorScheme.primary, fontWeight: FontWeight.bold)),),
                       const SizedBox(height: 15,),
                       Text("Easy method to manage your savings", style: theme.textTheme.headlineSmall!.merge(TextStyle(color: ColorHelper.lighten(theme.colorScheme.primary, 0.1), fontWeight: FontWeight.w500)),),
                       const SizedBox(height: 25,),

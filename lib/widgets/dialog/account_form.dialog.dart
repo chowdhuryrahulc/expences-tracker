@@ -1,9 +1,9 @@
-import 'package:fintracker/dao/account_dao.dart';
-import 'package:fintracker/events.dart';
-import 'package:fintracker/model/account.model.dart';
-import 'package:fintracker/widgets/buttons/button.dart';
+import 'package:expensetracker/dao/account_dao.dart';
+import 'package:expensetracker/events.dart';
+import 'package:expensetracker/model/account.model.dart';
+import 'package:expensetracker/widgets/buttons/button.dart';
 import 'package:flutter/material.dart';
-import 'package:fintracker/data/icons.dart';
+import 'package:expensetracker/data/icons.dart';
 typedef Callback = void Function();
 
 class AccountForm extends StatefulWidget {

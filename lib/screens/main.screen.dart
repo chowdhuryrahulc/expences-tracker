@@ -1,12 +1,12 @@
 import 'package:ficonsax/ficonsax.dart';
-import 'package:fintracker/extension.dart';
-import 'package:fintracker/providers/app_provider.dart';
-import 'package:fintracker/screens/accounts/accounts.screen.dart';
-import 'package:fintracker/screens/categories/categories.screen.dart';
-import 'package:fintracker/screens/home/home.screen.dart';
-import 'package:fintracker/screens/onboard/onboard_screen.dart';
-import 'package:fintracker/screens/payments/payments_screen.dart';
-import 'package:fintracker/screens/settings/settings.screen.dart';
+import 'package:expensetracker/extension.dart';
+import 'package:expensetracker/providers/app_provider.dart';
+import 'package:expensetracker/screens/accounts/accounts.screen.dart';
+import 'package:expensetracker/screens/categories/categories.screen.dart';
+import 'package:expensetracker/screens/home/home.screen.dart';
+import 'package:expensetracker/screens/onboard/onboard_screen.dart';
+import 'package:expensetracker/screens/payments/payments_screen.dart';
+import 'package:expensetracker/screens/settings/settings.screen.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 

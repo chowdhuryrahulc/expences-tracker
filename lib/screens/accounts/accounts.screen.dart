@@ -1,12 +1,12 @@
 import 'package:events_emitter/events_emitter.dart';
-import 'package:fintracker/dao/account_dao.dart';
-import 'package:fintracker/events.dart';
-import 'package:fintracker/extension.dart';
-import 'package:fintracker/model/account.model.dart';
-import 'package:fintracker/theme/colors.dart';
-import 'package:fintracker/widgets/currency.dart';
-import 'package:fintracker/widgets/dialog/account_form.dialog.dart';
-import 'package:fintracker/widgets/dialog/confirm.modal.dart';
+import 'package:expensetracker/dao/account_dao.dart';
+import 'package:expensetracker/events.dart';
+import 'package:expensetracker/extension.dart';
+import 'package:expensetracker/model/account.model.dart';
+import 'package:expensetracker/theme/colors.dart';
+import 'package:expensetracker/widgets/currency.dart';
+import 'package:expensetracker/widgets/dialog/account_form.dialog.dart';
+import 'package:expensetracker/widgets/dialog/confirm.modal.dart';
 import 'package:flutter/material.dart';
 
 maskAccount(String value, [int lastLength = 4]){

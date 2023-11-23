@@ -1,6 +1,6 @@
 import 'dart:async';
-import 'package:fintracker/helpers/db.helper.dart';
-import 'package:fintracker/model/category.model.dart';
+import 'package:expensetracker/helpers/db.helper.dart';
+import 'package:expensetracker/model/category.model.dart';
 import 'package:flutter/material.dart';
 import 'package:intl/intl.dart';
 

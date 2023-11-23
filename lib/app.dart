@@ -1,6 +1,6 @@
 import 'package:dynamic_color/dynamic_color.dart';
-import 'package:fintracker/screens/main.screen.dart';
-import 'package:fintracker/theme/colors.dart';
+import 'package:expensetracker/screens/main.screen.dart';
+import 'package:expensetracker/theme/colors.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:flutter_localizations/flutter_localizations.dart';
@@ -46,7 +46,7 @@ class App extends StatelessWidget {
     return DynamicColorBuilder(
         builder: (ColorScheme? lightDynamic, ColorScheme? darkDynamic) {
           return MaterialApp(
-            title: 'Fintracker',
+            title: 'Expensetracker',
             theme: _buildTheme(brightness: Brightness.light, color: lightDynamic?.primary),
             darkTheme: _buildTheme(brightness: Brightness.dark,  color: darkDynamic?.primary),
             themeMode: isDarkMode ? ThemeMode.dark : ThemeMode.light,

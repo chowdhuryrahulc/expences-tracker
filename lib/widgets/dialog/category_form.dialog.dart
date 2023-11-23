@@ -1,10 +1,10 @@
-import 'package:fintracker/dao/category_dao.dart';
-import 'package:fintracker/data/icons.dart';
-import 'package:fintracker/events.dart';
-import 'package:fintracker/extension.dart';
-import 'package:fintracker/model/category.model.dart';
-import 'package:fintracker/widgets/buttons/button.dart';
-import 'package:fintracker/widgets/currency.dart';
+import 'package:expensetracker/dao/category_dao.dart';
+import 'package:expensetracker/data/icons.dart';
+import 'package:expensetracker/events.dart';
+import 'package:expensetracker/extension.dart';
+import 'package:expensetracker/model/category.model.dart';
+import 'package:expensetracker/widgets/buttons/button.dart';
+import 'package:expensetracker/widgets/currency.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 typedef Callback = void Function();

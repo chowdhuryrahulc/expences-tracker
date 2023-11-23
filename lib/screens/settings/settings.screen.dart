@@ -1,10 +1,10 @@
 import 'package:currency_picker/currency_picker.dart';
 import 'package:ficonsax/ficonsax.dart';
-import 'package:fintracker/extension.dart';
-import 'package:fintracker/helpers/db.helper.dart';
-import 'package:fintracker/providers/app_provider.dart';
-import 'package:fintracker/widgets/buttons/button.dart';
-import 'package:fintracker/widgets/dialog/confirm.modal.dart';
+import 'package:expensetracker/extension.dart';
+import 'package:expensetracker/helpers/db.helper.dart';
+import 'package:expensetracker/providers/app_provider.dart';
+import 'package:expensetracker/widgets/buttons/button.dart';
+import 'package:expensetracker/widgets/dialog/confirm.modal.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 class SettingsScreen extends StatefulWidget {

@@ -1,5 +1,5 @@
-import 'package:fintracker/screens/onboard/widgets/landing.dart';
-import 'package:fintracker/screens/onboard/widgets/profile.dart';
+import 'package:expensetracker/screens/onboard/widgets/landing.dart';
+import 'package:expensetracker/screens/onboard/widgets/profile.dart';
 import 'package:flutter/material.dart';
 
 class OnboardScreen extends StatelessWidget {

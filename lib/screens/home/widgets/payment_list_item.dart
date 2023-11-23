@@ -1,6 +1,6 @@
-import 'package:fintracker/extension.dart';
-import 'package:fintracker/model/payment.model.dart';
-import 'package:fintracker/widgets/currency.dart';
+import 'package:expensetracker/extension.dart';
+import 'package:expensetracker/model/payment.model.dart';
+import 'package:expensetracker/widgets/currency.dart';
 import 'package:flutter/material.dart';
 import 'package:intl/intl.dart';
 import '../../../theme/colors.dart';

@@ -1,4 +1,4 @@
-import 'package:fintracker/extension.dart';
+import 'package:expensetracker/extension.dart';
 import 'package:flutter/material.dart';
 
 class GradientContainer extends StatelessWidget {

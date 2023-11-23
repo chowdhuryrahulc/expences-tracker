@@ -1,6 +1,6 @@
 {
-    "name": "fintracker",
-    "short_name": "fintracker",
+    "name": "expensetracker",
+    "short_name": "expensetracker",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",

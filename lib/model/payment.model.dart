@@ -1,5 +1,5 @@
-import 'package:fintracker/model/account.model.dart';
-import 'package:fintracker/model/category.model.dart';
+import 'package:expensetracker/model/account.model.dart';
+import 'package:expensetracker/model/category.model.dart';
 import 'package:intl/intl.dart';
 
 enum PaymentType {

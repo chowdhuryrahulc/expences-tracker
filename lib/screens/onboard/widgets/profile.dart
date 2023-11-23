@@ -1,9 +1,9 @@
 import 'package:currency_picker/currency_picker.dart';
 import 'package:ficonsax/ficonsax.dart';
-import 'package:fintracker/helpers/color.helper.dart';
-import 'package:fintracker/helpers/db.helper.dart';
-import 'package:fintracker/providers/app_provider.dart';
-import 'package:fintracker/widgets/buttons/button.dart';
+import 'package:expensetracker/helpers/color.helper.dart';
+import 'package:expensetracker/helpers/db.helper.dart';
+import 'package:expensetracker/providers/app_provider.dart';
+import 'package:expensetracker/widgets/buttons/button.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 
@@ -39,7 +39,7 @@ class _ProfileWidget extends State<ProfileWidget>{
                   Expanded(
                       child: ListView(
                         children: [
-                          Text("Hi! \nwelcome to Fintracker", style: theme.textTheme.headlineMedium!.apply(color: theme.colorScheme.primary, fontWeightDelta: 2),),
+                          Text("Hi! \nwelcome to expensetracker", style: theme.textTheme.headlineMedium!.apply(color: theme.colorScheme.primary, fontWeightDelta: 2),),
                           const SizedBox(height: 15,),
                           Text("Please enter all details to continue.", style: theme.textTheme.bodyLarge!.apply(color: ColorHelper.darken(theme.textTheme.bodyLarge!.color!), fontWeightDelta: 1),),
                           const SizedBox(height: 30,),

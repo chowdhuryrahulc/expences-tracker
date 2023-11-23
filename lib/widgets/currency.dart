@@ -1,6 +1,6 @@
 import 'package:currency_picker/currency_picker.dart';
-import 'package:fintracker/helpers/currency.helper.dart';
-import 'package:fintracker/providers/app_provider.dart';
+import 'package:expensetracker/helpers/currency.helper.dart';
+import 'package:expensetracker/providers/app_provider.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 

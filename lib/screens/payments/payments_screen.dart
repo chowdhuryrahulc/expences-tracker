@@ -1,9 +1,9 @@
 import 'package:events_emitter/events_emitter.dart';
-import 'package:fintracker/dao/payment_dao.dart';
-import 'package:fintracker/events.dart';
-import 'package:fintracker/model/payment.model.dart';
-import 'package:fintracker/screens/home/widgets/payment_list_item.dart';
-import 'package:fintracker/screens/payments/payment_form.screen.dart';
+import 'package:expensetracker/dao/payment_dao.dart';
+import 'package:expensetracker/events.dart';
+import 'package:expensetracker/model/payment.model.dart';
+import 'package:expensetracker/screens/home/widgets/payment_list_item.dart';
+import 'package:expensetracker/screens/payments/payment_form.screen.dart';
 import 'package:flutter/material.dart';
 
 class PaymentsScreen extends StatefulWidget {

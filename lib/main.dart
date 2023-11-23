@@ -1,6 +1,6 @@
-import 'package:fintracker/app.dart';
-import 'package:fintracker/helpers/db.helper.dart';
-import 'package:fintracker/providers/app_provider.dart';
+import 'package:expensetracker/app.dart';
+import 'package:expensetracker/helpers/db.helper.dart';
+import 'package:expensetracker/providers/app_provider.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 
